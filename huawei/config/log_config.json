@@ -1,0 +1,30 @@
+{
+    "default": {
+        "log_file": "logs/default.log",
+        "level": "ERROR"
+    },
+    "access_manager": {
+        "log_file": "logs/access_manager.log",
+        "level": "ERROR"
+    },
+    "device_manager": {
+        "log_file": "logs/device_manager.log",
+        "level": "ERROR"
+    },
+    "tenants_manager": {
+        "log_file": "logs/tenants_manager.log",
+        "level": "ERROR"
+    },
+    "output_handler": {
+        "log_file": "logs/output_handler.log",
+        "level": "DEBUG"
+    },
+    "alarms_manager": {
+        "log_file": "logs/alarms_manager.log",
+        "level": "ERROR"
+    },
+    "api_manager": {
+        "log_file": "logs/api_manager.log",
+        "level": "DEBUG"
+    }
+}

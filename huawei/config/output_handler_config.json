@@ -1,0 +1,72 @@
+{
+	"databases": {
+		"monitoring_db": {
+			"db_connection": "postgresql://monitoring_user:KLJ98ygakjA2%@172.21.3.227/monitoring_db"
+		}
+	},
+	"default": {
+		"type": "database",
+		"database_settings": {
+			"db_name": "monitoring_db",
+			"table": "default_table",
+			"save_mode": "insert",
+			"unique_field": "id"
+		}
+	},
+	"get_tenants": {
+		"type": "database",
+		"file_settings": {
+			"base_path": "./tenants_output",
+			"file_name_template": "response.json"
+		},
+		"database_settings": {
+			"db_name": "monitoring_db",
+			"table": "tenants_huawei",
+			"save_mode": "upsert",
+			"unique_field": ["tenantId"],
+			"on_conflict": "update"
+		}
+	},
+	"get_devices_msp": {
+		"type": "database",
+		"file_settings": {
+			"base_path": "./devices_output",
+			"file_name_template": "{tenantIdList}_response.json"
+		},
+		"database_settings": {
+			"db_name": "monitoring_db",
+			"table": "devices_huawei",
+			"save_mode": "upsert",
+			"unique_field": ["tenantId", "id"],
+			"on_conflict": "update"
+		}
+	},
+	"get_alarms": {
+		"type": "database",
+		"file_settings": {
+			"base_path": "./alarms_output",
+			"file_name_template": "{tenant_id}_response.json"
+		},
+		"database_settings": {
+			"db_name": "monitoring_db",
+			"table": "alarms_huawei",
+			"save_mode": "upsert",
+			"unique_field": ["alarm-parameters->>alarm-serial-number", "alarm-parameters->>tenant-id"],
+			"on_conflict": "nothing"
+		}
+	},
+	"get_network_link": {
+		"type": "database",
+		"file_settings": {
+			"base_path": "./network_link_output",
+			"file_name_template": "response.json"
+		},
+		"database_settings": {
+			"db_name": "monitoring_db",
+			"table": "network_link_huawei",
+			"save_mode": "upsert",
+			"unique_field": ["linkdn"],
+			"on_conflict": "update"
+		}
+	}
+}

@@ -1,0 +1,1899 @@
+{
+    "alarm": [
+        {
+            "time-created": "2024-10-18T05:00:25.308Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-10-18T05:00:25.308Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Extend the current license, or unify the expiration time.(In points-based mode, only the current license resources can be expanded.)",
+                "ne-name": "OSS",
+                "location-info": "licenseSeries=AR600 Series,AR6100 Series,S5700-LI Series-8 Ports,S5700-LI Series-24 Ports,AR6100 Series,Basic Device Management In LANWAN Convergence,AR600 Series,Basic Device Management In LANWAN Convergence,AirEngine-Indoor",
+                "native-probable-cause": "Subscription License Expired",
+                "probable-cause": "Subscription license expired.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-18T05:00:43.079Z",
+                "alarm-serial-number": "682569756",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794846",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            }
+        },
+        {
+            "time-created": "2024-06-08T04:13:25.806Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-06-08T04:13:25.806Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1/AgencyUser, Handling policy=Suspend, Date= 2024-06-08",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-06-08T04:13:25.792Z",
+                "alarm-serial-number": "52877332",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-05-20T18:28:27.994Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-05-20T18:28:27.994Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= yuri@poc2.com, Handling policy=Suspend, Date= 2024-05-20",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-05-20T18:28:27.996Z",
+                "alarm-serial-number": "2112955083",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-04-08T12:28:26.967Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-04-08T12:28:26.967Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= api@poc1.com, Handling policy=Suspend, Date= 2024-04-08",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-04-08T12:28:26.969Z",
+                "alarm-serial-number": "1812701061",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-04-07T21:28:26.873Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-04-07T21:28:26.873Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= augusto@poc1.com, Handling policy=Suspend, Date= 2024-04-07",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-04-07T21:28:26.889Z",
+                "alarm-serial-number": "1808369395",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-03-29T15:28:26.919Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-03-29T15:28:26.919Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= yuri@poc1.com, Handling policy=Suspend, Date= 2024-03-29",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-03-29T15:28:26.923Z",
+                "alarm-serial-number": "1746648982",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-03-05T20:28:26.798Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-03-05T20:28:26.798Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= eduardo@poc1.com, Handling policy=Suspend, Date= 2024-03-05",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-03-05T20:28:26.799Z",
+                "alarm-serial-number": "1586387649",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-02-18T15:28:27.548Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-18T15:28:27.548Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= marcos@poc1.com, Handling policy=Suspend, Date= 2024-02-18",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-18T15:28:27.563Z",
+                "alarm-serial-number": "1475503203",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-02-06T18:28:27.488Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-06T18:28:27.488Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= VIVO-ProdutoVGR/malves, Handling policy=Suspend, Date= 2024-02-06",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-06T18:28:27.500Z",
+                "alarm-serial-number": "1394201522",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-02-04T05:36:16.285Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-04T05:36:16.285Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "processing-error-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: Device reports the backup file does not exist.\nCollect alarm and log information, and contact technical support personnel.\nCause 2: Failure returned by the device.\na. Check for exceptions between the device and the file server, including network disconnection and server unavailability.\nIf any exception occurs, contact technical support personnel to eliminate the exception and then go to b.\nIf no exception occurs, go to c.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 3: Configuration delivery failure.\na. Check whether the device version is V300R019C10 or later and whether it supports this function.\nIf the device version is supported, please contact technical support to fix it and then go to c.\nIf the device version is not supported, upgrade the device version and then go to b.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 4: The device is offline.\na. Bring the device online. For details, see the product documentation of the device.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 5: The backup timed out and the device progress could not be obtained.\nCollect alarm and log information, and contact technical support personnel.\nCause 6: V600 series devices do not support the configuration backup file function.\nCheck whether the device is of the V600 series. if not, contact technical support personnel.",
+                "ne-name": "SPOKE2_AR651_2",
+                "location-info": "esn=2S500104832320003741",
+                "native-probable-cause": "Device Configuration Backup Failed",
+                "probable-cause": "Cause 1: Device reports the backup file does not exist.\nCause 2: Failure returned by the device.\nCause 3: Configuration delivery failure.\nCause 4: The device is offline.\nCause 5: The backup timed out and the device progress could not be obtained.\nCause 6: V600 series devices do not support the configuration backup file function.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-04T05:36:19.792Z",
+                "alarm-serial-number": "1377221829",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "name=SPOKE2_AR651_2;errorMessage=The device is offline.",
+                "ip-address": "200.207.243.175"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-200037",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "processing-error-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832320003741"
+            }
+        },
+        {
+            "time-created": "2024-02-04T05:36:16.251Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-04T05:36:16.251Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "processing-error-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: Device reports the backup file does not exist.\nCollect alarm and log information, and contact technical support personnel.\nCause 2: Failure returned by the device.\na. Check for exceptions between the device and the file server, including network disconnection and server unavailability.\nIf any exception occurs, contact technical support personnel to eliminate the exception and then go to b.\nIf no exception occurs, go to c.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 3: Configuration delivery failure.\na. Check whether the device version is V300R019C10 or later and whether it supports this function.\nIf the device version is supported, please contact technical support to fix it and then go to c.\nIf the device version is not supported, upgrade the device version and then go to b.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 4: The device is offline.\na. Bring the device online. For details, see the product documentation of the device.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 5: The backup timed out and the device progress could not be obtained.\nCollect alarm and log information, and contact technical support personnel.\nCause 6: V600 series devices do not support the configuration backup file function.\nCheck whether the device is of the V600 series. if not, contact technical support personnel.",
+                "ne-name": "SPOKE1_AR6121",
+                "location-info": "esn=1002353TBH2325577439",
+                "native-probable-cause": "Device Configuration Backup Failed",
+                "probable-cause": "Cause 1: Device reports the backup file does not exist.\nCause 2: Failure returned by the device.\nCause 3: Configuration delivery failure.\nCause 4: The device is offline.\nCause 5: The backup timed out and the device progress could not be obtained.\nCause 6: V600 series devices do not support the configuration backup file function.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-04T05:36:19.792Z",
+                "alarm-serial-number": "1377221826",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "name=SPOKE1_AR6121;errorMessage=The device is offline.",
+                "ip-address": "200.207.243.45"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-200037",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "processing-error-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2325577439"
+            }
+        },
+        {
+            "time-created": "2024-02-04T05:36:16.249Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-04T05:36:16.249Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "processing-error-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: Device reports the backup file does not exist.\nCollect alarm and log information, and contact technical support personnel.\nCause 2: Failure returned by the device.\na. Check for exceptions between the device and the file server, including network disconnection and server unavailability.\nIf any exception occurs, contact technical support personnel to eliminate the exception and then go to b.\nIf no exception occurs, go to c.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 3: Configuration delivery failure.\na. Check whether the device version is V300R019C10 or later and whether it supports this function.\nIf the device version is supported, please contact technical support to fix it and then go to c.\nIf the device version is not supported, upgrade the device version and then go to b.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 4: The device is offline.\na. Bring the device online. For details, see the product documentation of the device.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 5: The backup timed out and the device progress could not be obtained.\nCollect alarm and log information, and contact technical support personnel.\nCause 6: V600 series devices do not support the configuration backup file function.\nCheck whether the device is of the V600 series. if not, contact technical support personnel.",
+                "ne-name": "SPOKE2_AR651_1",
+                "location-info": "esn=2S500104832320002535",
+                "native-probable-cause": "Device Configuration Backup Failed",
+                "probable-cause": "Cause 1: Device reports the backup file does not exist.\nCause 2: Failure returned by the device.\nCause 3: Configuration delivery failure.\nCause 4: The device is offline.\nCause 5: The backup timed out and the device progress could not be obtained.\nCause 6: V600 series devices do not support the configuration backup file function.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-04T05:36:19.792Z",
+                "alarm-serial-number": "1377221825",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "name=SPOKE2_AR651_1;errorMessage=The device is offline.",
+                "ip-address": "200.207.243.43"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-200037",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "processing-error-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832320002535"
+            }
+        },
+        {
+            "time-created": "2024-02-04T05:36:16.251Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-04T05:36:16.251Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "processing-error-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: Device reports the backup file does not exist.\nCollect alarm and log information, and contact technical support personnel.\nCause 2: Failure returned by the device.\na. Check for exceptions between the device and the file server, including network disconnection and server unavailability.\nIf any exception occurs, contact technical support personnel to eliminate the exception and then go to b.\nIf no exception occurs, go to c.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 3: Configuration delivery failure.\na. Check whether the device version is V300R019C10 or later and whether it supports this function.\nIf the device version is supported, please contact technical support to fix it and then go to c.\nIf the device version is not supported, upgrade the device version and then go to b.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 4: The device is offline.\na. Bring the device online. For details, see the product documentation of the device.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 5: The backup timed out and the device progress could not be obtained.\nCollect alarm and log information, and contact technical support personnel.\nCause 6: V600 series devices do not support the configuration backup file function.\nCheck whether the device is of the V600 series. if not, contact technical support personnel.",
+                "ne-name": "HUB-AR6121",
+                "location-info": "esn=1002353TBH2326094841",
+                "native-probable-cause": "Device Configuration Backup Failed",
+                "probable-cause": "Cause 1: Device reports the backup file does not exist.\nCause 2: Failure returned by the device.\nCause 3: Configuration delivery failure.\nCause 4: The device is offline.\nCause 5: The backup timed out and the device progress could not be obtained.\nCause 6: V600 series devices do not support the configuration backup file function.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-04T05:36:19.872Z",
+                "alarm-serial-number": "1377214751",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "name=HUB-AR6121;errorMessage=The device is offline.",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-200037",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "processing-error-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-02T20:28:26.796Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-02T20:28:26.796Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= jackson@poc1.com, Handling policy=Suspend, Date= 2024-02-02",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-02T20:28:26.808Z",
+                "alarm-serial-number": "1368161551",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:51:12.176Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:51:12.176Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE1_AR6121",
+                "location-info": "ESN=1002353TBH2325577439",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:51:16.458Z",
+                "alarm-serial-number": "1359161682",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "200.207.243.45"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2325577439"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:51:04.164Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:51:04.164Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "HUB-AR6121",
+                "location-info": "ESN=1002353TBH2326094841",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:51:07.935Z",
+                "alarm-serial-number": "1359161463",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:26:53.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:26:53.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display bgp peer ipv4-addresses log-info command to check the check the Error field in the command output. You can view the Error Code and Sub Error Code in the received Notification in the form of [ErrorCode][ErrorSubCode]. \n\u2022If the error code of the Notification is 1, it indicates that the BGP module receives the packet with incorrect headers. Then, go to Step 23. \n\u2022If the error code of the Notification is 2, it indicates that the BGP module receives the incorrect Open packet. Then, go to Step 23. \n\u2022If the error code of the Notification is 3, it indicates that the BGP module receives the incorrect Update packet. Then, go to Step 23. \n\u2022If the error code of the Notification is 4, it indicates that till the Holdtimer times out, the BGP module does not receive the Keepalive packet. Then, go to Step 4. \n\u2022If the error code of the Notification is 5, it indicates that the finite state machine of the BGP module is faulty. Then, go to Step 23. \n\u2022If the error code of the Notification is 6, go to Step 2. \n\n2.If the error code of the Notification is 6, it indicates that BGP automatically closes the connection. Then, you need to run the display bgp peer ipv4-address log-info command to view the Notification field and check whether the Notification is sent by the router that generates the trap. \n\u2022If \"Send Notification\" is displayed, it indicates that the local router actively sends the Notification. Then, go to Step 3. \n\u2022If \"Receive Notification\" is displayed, it indicates that the local router receives the Notification. Then, go to Step 22. \n\n3.Search for the reset bgp all and reset bgp ipv4-address commands in the logs to check whether BGP is reset on the local end; or search for the peer ipv4-address enable command to check whether the peer is enabled in other address families on the local, or parameters for the BGP connection are configured. \n\u2022If so, it indicates that incorrect configurations cause the trap, and thus no action is required. Then, go to Step 24. \n\u2022If not, go to Step 23. \n\n4.If the error code is 4, it indicates that the BGP disconnection is caused by the timeout of the Holdtimer. Then, you need to check whether the address of the BGP neighbor can be pinged successfully. \n\u2022If so, go to Step 21. \n\u2022If not, go to Step 5. \n\n5.Run the display ip routing-table command to check whether the Destination/Mask field has the route to the peer address. \n\u2022If so, go to Step 7. \n\u2022If not, go to Step 8. \n\n6.Run the display acl all command to check whether the router is configured with the ACL that disables TCP port 179. \n\u2022If so, go to Step 9. \n\u2022If not, go to Step 10. \n\n7.Run the display ip interface brief command to check whether the values of Physical and Protocol fields of the outbound interface are Up. \n\u2022If so, go to Step 23. \n\u2022If not, go to Step 11. \n\n8.Check the origin of the route with the BGP peer address. \n\u2022If the route is originated from OSPF, go to Step 12. \n\u2022If the route is originated from IS-IS, go to Step 13. \n\u2022Else, go to Step 23. \n\n9.Delete the ACL that disables the TCP port 179, and check whether the trap BGP_1.3.6.1.4.1.2011.5.25.177.1.3.9 hwBgpPeerEstablished appears later. \n\u2022If so, go to Step 24. \n\u2022If not, go to Step 10. \n\n10.Check the BGP configuration to see whether loopback interfaces are used to establish BGP peers. \n\u2022If so, go to Step 14. \n\u2022If not, go to Step 15. \n\n11.Enter the view of the outbound interface, and run the display this command to check whether the interface is shut down. \n\u2022If so, run the undo shutdown command to enable the interface. \n\u2022If not, go to Step 22. \n\n12.Run the display ospf peer command to check whether the OSPF peer relationship is established. \n\u2022If so, go to Step 23. \n\u2022If not, refer to the solution provided in the case of trap OSPF_1.3.6.1.2.1.14.16.2.2 ospfNbrStateChange. \n\n13.Run the display isis peer command to check whether the IS-IS peer relationship is established. \n\u2022If so, go to Step 23. \n\u2022If not, refer to the solution provided in the case of trap ISIS_1.3.6.1.3.37.2.0.13 isisRejectedAdjacency. \n\n14.Check whether the peer connect-interface is configured for specifying the source address. \n\u2022If so, go to Step 15. \n\u2022If not, go to Step 16. \n\n15.If BGP is the EBGP neighbor relationship and multiple hops exist between EBGP neighbors, check whether the peer ebgp-max-hop is configured. \n\u2022If so, go to Step 17. \n\u2022If not, go to Step 19. \n\n16.Configure the peer connect-interface command. The parameter in the command must be the local interface that establishes a connection with the peer. Then, check whether the trap BGP_1.3.6.1.4.1.2011.5.25.177.1.3.9 hwBgpPeerEstablished appears later. \n\u2022If so, go to Step 24. \n\u2022If not, go to Step 23. \n\n17.Check whether the peer valid-ttl-hops hops command is configured. \n\u2022If so, go to Step 18. \n\u2022If not, go to Step 23. \n\n18.If the peer valid-ttl-hops hops is configured, check whether the TTL of the packet to the peer ranges from [255-hops+1] to 255. \n\u2022If so, go to Step 23. \n\u2022If not, go to Step 20. \n\n19.Configure the peer ebgp-max-ho",
+                "ne-name": "HUB-AR6121",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.177.1.3.10;index=public167837701;ESN=1002353TBH2326094841",
+                "native-probable-cause": "The BGP neighbor will be disconnected",
+                "probable-cause": "1. The BGP holdtimer timed out and did not receive the Keepalive packet.\n2. BGP received incorrect BGP packets.\n3. The BGP neighbor relationship was reset and the neighbor relationship was automatically interrupted.\n4. BGP received Notification packets from the neighbor.\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:28:23.561Z",
+                "alarm-serial-number": "1359047632",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "The BGP FSM moves from a higher numbered state to a lower numbered state. (InstanceName=public; InterfaceIndex=0; PeerState=1; PeerRemoteAddr=10.1.0.5; Afi=1; Safi=1; PeerUnavaiReason=4; PeerType=1; PeerLastError=40; InterfaceName=null; Overlay=Yes)",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "134365ce-a48c-492b-bdcf-f4489693d3ef",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3491241990",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:26:35.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:26:35.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display bgp peer ipv4-addresses log-info command to check the check the Error field in the command output. You can view the Error Code and Sub Error Code in the received Notification in the form of [ErrorCode][ErrorSubCode]. \n\u2022If the error code of the Notification is 1, it indicates that the BGP module receives the packet with incorrect headers. Then, go to Step 23. \n\u2022If the error code of the Notification is 2, it indicates that the BGP module receives the incorrect Open packet. Then, go to Step 23. \n\u2022If the error code of the Notification is 3, it indicates that the BGP module receives the incorrect Update packet. Then, go to Step 23. \n\u2022If the error code of the Notification is 4, it indicates that till the Holdtimer times out, the BGP module does not receive the Keepalive packet. Then, go to Step 4. \n\u2022If the error code of the Notification is 5, it indicates that the finite state machine of the BGP module is faulty. Then, go to Step 23. \n\u2022If the error code of the Notification is 6, go to Step 2. \n\n2.If the error code of the Notification is 6, it indicates that BGP automatically closes the connection. Then, you need to run the display bgp peer ipv4-address log-info command to view the Notification field and check whether the Notification is sent by the router that generates the trap. \n\u2022If \"Send Notification\" is displayed, it indicates that the local router actively sends the Notification. Then, go to Step 3. \n\u2022If \"Receive Notification\" is displayed, it indicates that the local router receives the Notification. Then, go to Step 22. \n\n3.Search for the reset bgp all and reset bgp ipv4-address commands in the logs to check whether BGP is reset on the local end; or search for the peer ipv4-address enable command to check whether the peer is enabled in other address families on the local, or parameters for the BGP connection are configured. \n\u2022If so, it indicates that incorrect configurations cause the trap, and thus no action is required. Then, go to Step 24. \n\u2022If not, go to Step 23. \n\n4.If the error code is 4, it indicates that the BGP disconnection is caused by the timeout of the Holdtimer. Then, you need to check whether the address of the BGP neighbor can be pinged successfully. \n\u2022If so, go to Step 21. \n\u2022If not, go to Step 5. \n\n5.Run the display ip routing-table command to check whether the Destination/Mask field has the route to the peer address. \n\u2022If so, go to Step 7. \n\u2022If not, go to Step 8. \n\n6.Run the display acl all command to check whether the router is configured with the ACL that disables TCP port 179. \n\u2022If so, go to Step 9. \n\u2022If not, go to Step 10. \n\n7.Run the display ip interface brief command to check whether the values of Physical and Protocol fields of the outbound interface are Up. \n\u2022If so, go to Step 23. \n\u2022If not, go to Step 11. \n\n8.Check the origin of the route with the BGP peer address. \n\u2022If the route is originated from OSPF, go to Step 12. \n\u2022If the route is originated from IS-IS, go to Step 13. \n\u2022Else, go to Step 23. \n\n9.Delete the ACL that disables the TCP port 179, and check whether the trap BGP_1.3.6.1.4.1.2011.5.25.177.1.3.9 hwBgpPeerEstablished appears later. \n\u2022If so, go to Step 24. \n\u2022If not, go to Step 10. \n\n10.Check the BGP configuration to see whether loopback interfaces are used to establish BGP peers. \n\u2022If so, go to Step 14. \n\u2022If not, go to Step 15. \n\n11.Enter the view of the outbound interface, and run the display this command to check whether the interface is shut down. \n\u2022If so, run the undo shutdown command to enable the interface. \n\u2022If not, go to Step 22. \n\n12.Run the display ospf peer command to check whether the OSPF peer relationship is established. \n\u2022If so, go to Step 23. \n\u2022If not, refer to the solution provided in the case of trap OSPF_1.3.6.1.2.1.14.16.2.2 ospfNbrStateChange. \n\n13.Run the display isis peer command to check whether the IS-IS peer relationship is established. \n\u2022If so, go to Step 23. \n\u2022If not, refer to the solution provided in the case of trap ISIS_1.3.6.1.3.37.2.0.13 isisRejectedAdjacency. \n\n14.Check whether the peer connect-interface is configured for specifying the source address. \n\u2022If so, go to Step 15. \n\u2022If not, go to Step 16. \n\n15.If BGP is the EBGP neighbor relationship and multiple hops exist between EBGP neighbors, check whether the peer ebgp-max-hop is configured. \n\u2022If so, go to Step 17. \n\u2022If not, go to Step 19. \n\n16.Configure the peer connect-interface command. The parameter in the command must be the local interface that establishes a connection with the peer. Then, check whether the trap BGP_1.3.6.1.4.1.2011.5.25.177.1.3.9 hwBgpPeerEstablished appears later. \n\u2022If so, go to Step 24. \n\u2022If not, go to Step 23. \n\n17.Check whether the peer valid-ttl-hops hops command is configured. \n\u2022If so, go to Step 18. \n\u2022If not, go to Step 23. \n\n18.If the peer valid-ttl-hops hops is configured, check whether the TTL of the packet to the peer ranges from [255-hops+1] to 255. \n\u2022If so, go to Step 23. \n\u2022If not, go to Step 20. \n\n19.Configure the peer ebgp-max-ho",
+                "ne-name": "HUB-AR6121",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.177.1.3.10;index=public167837702;ESN=1002353TBH2326094841",
+                "native-probable-cause": "The BGP neighbor will be disconnected",
+                "probable-cause": "1. The BGP holdtimer timed out and did not receive the Keepalive packet.\n2. BGP received incorrect BGP packets.\n3. The BGP neighbor relationship was reset and the neighbor relationship was automatically interrupted.\n4. BGP received Notification packets from the neighbor.\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:28:23.561Z",
+                "alarm-serial-number": "1359047627",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "The BGP FSM moves from a higher numbered state to a lower numbered state. (InstanceName=public; InterfaceIndex=0; PeerState=1; PeerRemoteAddr=10.1.0.6; Afi=1; Safi=1; PeerUnavaiReason=4; PeerType=1; PeerLastError=40; InterfaceName=null; Overlay=Yes)",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "134365ce-a48c-492b-bdcf-f4489693d3ef",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3491241990",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:24:01.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:24:01.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Check whether the interfaces bound to the TNPs can ping each other successfully.\n2.Check whether the intermediate transmission network is faulty.\n3.Collect log and configuration information, and contact technical support",
+                "ne-name": "HUB-AR6121",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.241.6.3.2;index=srctnp5298destsite7512destnp5442;ESN=1002353TBH2326094841",
+                "native-probable-cause": "The evpn connection has entered the down state",
+                "probable-cause": "Cause 1:\n\nNo keepalive packet was received from the remote device within the configured detection period.\n\nCause 2:\n\nThe protocol status of a physical interface changed.\n\nCause 3:\n\nThe BGP connection between the local and remote sites was interrupted.\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:28:23.561Z",
+                "alarm-serial-number": "1359047610",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "The connection has entered the down state. SrcTNPID=5298; SrcUnderlayVpnInstance=underlay_mpls; ConnectionID=2; DestSiteName=SPOKE2; DownReason=KA detection fails; DestTNPID=5442; DestSiteID=7512; DestUnderlayVpnInstance=underlay_mpls2",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "134365ce-a48c-492b-bdcf-f4489693d3ef",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3276800301",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:24:00.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:24:00.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Check whether the interfaces bound to the TNPs can ping each other successfully.\n2.Check whether the intermediate transmission network is faulty.\n3.Collect log and configuration information, and contact technical support",
+                "ne-name": "HUB-AR6121",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.241.6.3.2;index=srctnp5297destsite7512destnp5441;ESN=1002353TBH2326094841",
+                "native-probable-cause": "The evpn connection has entered the down state",
+                "probable-cause": "Cause 1:\n\nNo keepalive packet was received from the remote device within the configured detection period.\n\nCause 2:\n\nThe protocol status of a physical interface changed.\n\nCause 3:\n\nThe BGP connection between the local and remote sites was interrupted.\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:28:23.561Z",
+                "alarm-serial-number": "1359047609",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "The connection has entered the down state. SrcTNPID=5297; SrcUnderlayVpnInstance=underlay_int; ConnectionID=6; DestSiteName=SPOKE2; DownReason=KA detection fails; DestTNPID=5441; DestSiteID=7512; DestUnderlayVpnInstance=underlay_int2",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "134365ce-a48c-492b-bdcf-f4489693d3ef",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3276800301",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:23:54.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:23:54.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Check whether the interfaces bound to the TNPs can ping each other successfully.\n2.Check whether the intermediate transmission network is faulty.\n3.Collect log and configuration information, and contact technical support",
+                "ne-name": "HUB-AR6121",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.241.6.3.2;index=srctnp5297destsite7512destnp5439;ESN=1002353TBH2326094841",
+                "native-probable-cause": "The evpn connection has entered the down state",
+                "probable-cause": "Cause 1:\n\nNo keepalive packet was received from the remote device within the configured detection period.\n\nCause 2:\n\nThe protocol status of a physical interface changed.\n\nCause 3:\n\nThe BGP connection between the local and remote sites was interrupted.\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:28:21.531Z",
+                "alarm-serial-number": "1359052013",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "The connection has entered the down state. SrcTNPID=5297; SrcUnderlayVpnInstance=underlay_int; ConnectionID=5; DestSiteName=SPOKE2; DownReason=KA detection fails; DestTNPID=5439; DestSiteID=7512; DestUnderlayVpnInstance=underlay_int1",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "134365ce-a48c-492b-bdcf-f4489693d3ef",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3276800301",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-02-01T12:23:53.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-02-01T12:23:53.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Check whether the interfaces bound to the TNPs can ping each other successfully.\n2.Check whether the intermediate transmission network is faulty.\n3.Collect log and configuration information, and contact technical support",
+                "ne-name": "HUB-AR6121",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.241.6.3.2;index=srctnp5298destsite7512destnp5440;ESN=1002353TBH2326094841",
+                "native-probable-cause": "The evpn connection has entered the down state",
+                "probable-cause": "Cause 1:\n\nNo keepalive packet was received from the remote device within the configured detection period.\n\nCause 2:\n\nThe protocol status of a physical interface changed.\n\nCause 3:\n\nThe BGP connection between the local and remote sites was interrupted.\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-02-01T12:28:21.531Z",
+                "alarm-serial-number": "1359052012",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "The connection has entered the down state. SrcTNPID=5298; SrcUnderlayVpnInstance=underlay_mpls; ConnectionID=4; DestSiteName=SPOKE2; DownReason=KA detection fails; DestTNPID=5440; DestSiteID=7512; DestUnderlayVpnInstance=underlay_mpls1",
+                "ip-address": "200.207.243.41"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "134365ce-a48c-492b-bdcf-f4489693d3ef",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3276800301",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR6121E"
+            },
+            "additional-info": {
+                "common-esn": "1002353TBH2326094841"
+            }
+        },
+        {
+            "time-created": "2024-01-31T22:49:22.406Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-31T22:49:22.406Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE2_S5735-8P_SW2",
+                "location-info": "ESN=4E2350011230",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-31T22:49:25.458Z",
+                "alarm-serial-number": "1355075635",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "172.16.25.230"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "S5735-L8T4S-A-V2"
+            },
+            "additional-info": {
+                "common-esn": "4E2350011230"
+            }
+        },
+        {
+            "time-created": "2024-01-31T22:48:58.164Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-31T22:48:58.164Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE2_AR651_2",
+                "location-info": "ESN=2S500104832320003741",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-31T22:49:03.158Z",
+                "alarm-serial-number": "1355072925",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "200.207.243.175"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832320003741"
+            }
+        },
+        {
+            "time-created": "2024-01-31T22:48:57.164Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-31T22:48:57.164Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE2_6760_AP1",
+                "location-info": "ESN=2102353GSJ10LA000216",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-31T22:49:02.843Z",
+                "alarm-serial-number": "1355075119",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "172.16.25.46"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine6760-X1"
+            },
+            "additional-info": {
+                "common-esn": "2102353GSJ10LA000216"
+            }
+        },
+        {
+            "time-created": "2024-01-31T22:48:55.176Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-31T22:48:55.176Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE2_S5735_24P_SW1",
+                "location-info": "ESN=QU2346016356",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-31T22:48:59.187Z",
+                "alarm-serial-number": "1355075009",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "172.16.25.107"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "S5735-L24T4XE-A-V2"
+            },
+            "additional-info": {
+                "common-esn": "QU2346016356"
+            }
+        },
+        {
+            "time-created": "2024-01-31T22:48:48.406Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-31T22:48:48.406Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE2_AR651_1",
+                "location-info": "ESN=2S500104832320002535",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-31T22:48:53.027Z",
+                "alarm-serial-number": "1355067944",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "200.207.243.43"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832320002535"
+            }
+        },
+        {
+            "time-created": "2024-01-31T22:48:47.164Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-31T22:48:47.164Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "SPOKE2_5760_AP2",
+                "location-info": "ESN=2102353GES10LB025151",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-31T22:48:50.987Z",
+                "alarm-serial-number": "1355072512",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out.",
+                "ip-address": "172.16.25.158"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5760-51"
+            },
+            "additional-info": {
+                "common-esn": "2102353GES10LB025151"
+            }
+        },
+        {
+            "time-created": "2024-01-29T17:28:27.069Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-29T17:28:27.069Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= emerson@poc1.com, Handling policy=Suspend, Date= 2024-01-29",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-29T17:28:27.079Z",
+                "alarm-serial-number": "1339249528",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-01-28T18:28:26.901Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-28T18:28:26.901Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= VIVO-ProdutoVGR/vivovita, Handling policy=Suspend, Date= 2024-01-28",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-28T18:28:26.902Z",
+                "alarm-serial-number": "1332728597",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.1.72"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-01-28T14:28:27.480Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-28T14:28:27.480Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= tanaka@poc1.com, Handling policy=Suspend, Date= 2024-01-28",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-28T14:28:27.480Z",
+                "alarm-serial-number": "1331595523",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.2.67"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-01-28T14:28:27.475Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-28T14:28:27.475Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= VIVO-ProdutoVGR/noc_vgr.br@telefonica.com, Handling policy=Suspend, Date= 2024-01-28",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-28T14:28:27.475Z",
+                "alarm-serial-number": "1331591085",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "VivoVita_47842_POC_Sd-Wan_Sd-Lan_Sd-Wifi_1",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.2.67"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-01-25T04:47:35.325Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-25T04:47:35.325Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "",
+                "ne-name": "SPOKE2_S5735_24P_SW1",
+                "location-info": "DeviceESN=QU2346016356;DeviceId=2d50421c-4f3f-4cba-afcf-86bd570195bb",
+                "native-probable-cause": "Device Configuration Delivery Failure",
+                "probable-cause": "",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-25T04:47:38.842Z",
+                "alarm-serial-number": "1307834893",
+                "reason-id": 0,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "alarmReason=The config-state of the device is failed.",
+                "ip-address": "172.16.25.107"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794794",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "S5735-L24T4XE-A-V2"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-01-15T13:36:22.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-01-15T13:36:22.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1. If the current time is 1 hour later than the alarm reporting time or configurations are changed after the alarm reporting, choose System > System Settings > Data Consistency > Configuration Auditing > Inconsistency Discovery and Correction from the Web UI, select the corresponding device according to the alarm, and re-discover inconsistencies.\n- If inconsistency discovery succeeds, go to step 2.\n- If inconsistency discovery fails, go to step 5.\n2. Choose System > System Settings > Data Consistency > Configuration Auditing > Inconsistency Discovery and Correction from the Web UI, select the corresponding device, and check whether inconsistent data exists.\n- If yes, go to step 3.\n- If not, the fault has been rectified. Go to step 6.\n3. Select the alarmed device and click Reconcile or Synchronize for correcting the inconsistency.\n- If inconsistency correction succeeds, go to step 4.\n- If inconsistency correction fails, go to step 5.\n4. Choose System > System Settings > Data Consistency > Configuration Auditing > Inconsistency Discovery and Correction from the Web UI, select the corresponding device according to the alarm, and re-discover inconsistencies for clearing the alarm. Then, go to step 6.\n5. Collect device run logs and contact Huawei engineers for further analysis.\n6. End.\nCLOUDVPN-AC-CAMPUS:\n1. If the current time is 1 hour later than the alarm reporting time or configurations are changed after the alarm reporting, choose System > Configure > Data Consistency > Consistency Check > Configuration Auditing > Inconsistency Discovery and Correction from the Web UI, select the corresponding device according to the alarm, and re-discover inconsistencies.\n- If inconsistency discovery succeeds, go to step 2.\n- If inconsistency discovery fails, go to step 5.\n2. Choose System > Configure > Data Consistency > Consistency Check > Configuration Auditing > Inconsistency Discovery and Correction from the Web UI, select the corresponding device, and check whether inconsistent data exists.\n- If yes, go to step 3.\n- If not, the fault has been rectified. Go to step 6.\n3. Select the alarmed device and click Reconcile or Synchronize for correcting the inconsistency.\n- If inconsistency correction succeeds, go to step 4.\n- If inconsistency correction fails, go to step 5.\n4. Choose System > Configure > Data Consistency > Consistency Check > Configuration Auditing > Inconsistency Discovery and Correction from the Web UI, select the corresponding device according to the alarm, and re-discover inconsistencies for clearing the alarm. Then, go to step 6.\n5. Collect device run logs and contact Huawei engineers for further analysis.\n6. End.\nAC-DCN:\n1. If the current time is 1 hour later than the alarm reporting time or configurations are changed after the alarm reporting, open the OAM & Monitoring app and choose Configuration Auditing > Device Configuration > Configuration Auditing from the menu, select the corresponding device according to the alarm, and re-discover inconsistencies.\n- If inconsistency discovery succeeds, go to step 2.\n- If inconsistency discovery fails, go to step 5.\n2. Open the OAM & Monitoring app and choose Configuration Auditing > Device Configuration > Configuration Auditing from the menu, select the corresponding device, and check whether inconsistent data exists.\n- If yes, go to step 3.\n- If not, the fault has been rectified. Go to step 6.\n3. Select the alarmed device and click Reconcile or Synchronize for correcting the inconsistency.\n- If inconsistency correction succeeds, go to step 4.\n- If inconsistency correction fails, go to step 5.\n4. Open the OAM & Monitoring app and choose Configuration Auditing > Device Configuration > Configuration Auditing from the menu, select the corresponding device according to the alarm, and re-discover inconsistencies for clearing the alarm. Then, go to step 6.\n5. Collect device run logs and contact Huawei engineers for further analysis.\n6. End.",
+                "ne-name": "OSS",
+                "location-info": "deviceId=2d50421c-4f3f-4cba-afcf-86bd570195bb;deviceName=SPOKE2_S5735_24P_SW1",
+                "native-probable-cause": "Data Inconsistency between Device and Agile Controller",
+                "probable-cause": "Device data is inconsistent with Agile Controller data.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-01-15T13:36:22.887Z",
+                "alarm-serial-number": "1237058270",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "deviceIp=200.207.243.43;diffFeatures=huawei-network-instance;reason=Trigger by AUTOMATIC",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794558",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-10-16T05:00:24.822Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-16T05:00:25.812Z"
+                    }
+                ],
+                "last-changed": "2024-10-16T05:00:25.812Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-16T06:33:38.664Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "Extend the current license, or unify the expiration time.(In points-based mode, only the current license resources can be expanded.)",
+                "ne-name": "OSS",
+                "location-info": "licenseSeries=AR600 Series,AR6100 Series,S5700-LI Series-8 Ports,S5700-LI Series-24 Ports,AR6100 Series,Basic Device Management In LANWAN Convergence,AR600 Series,Basic Device Management In LANWAN Convergence,AirEngine-Indoor",
+                "native-probable-cause": "Subscription License Expired",
+                "probable-cause": "Subscription license expired.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-16T05:00:27.812Z",
+                "alarm-serial-number": "672566526",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794846",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-10-16T05:00:25.813Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-17T05:00:24.805Z"
+                    }
+                ],
+                "last-changed": "2024-10-17T05:00:24.805Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-17T05:32:58.348Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "Extend the current license, or unify the expiration time.(In points-based mode, only the current license resources can be expanded.)",
+                "ne-name": "OSS",
+                "location-info": "licenseSeries=AR600 Series,AR6100 Series,S5700-LI Series-8 Ports,S5700-LI Series-24 Ports,AR6100 Series,Basic Device Management In LANWAN Convergence,AR600 Series,Basic Device Management In LANWAN Convergence,AirEngine-Indoor",
+                "native-probable-cause": "Subscription License Expired",
+                "probable-cause": "Subscription license expired.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-17T05:00:26.805Z",
+                "alarm-serial-number": "672567710",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794846",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-10-17T05:00:24.807Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-17T05:00:25.836Z"
+                    }
+                ],
+                "last-changed": "2024-10-17T05:00:25.836Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-17T05:32:58.348Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "Extend the current license, or unify the expiration time.(In points-based mode, only the current license resources can be expanded.)",
+                "ne-name": "OSS",
+                "location-info": "licenseSeries=AR600 Series,AR6100 Series,S5700-LI Series-8 Ports,S5700-LI Series-24 Ports,AR6100 Series,Basic Device Management In LANWAN Convergence,AR600 Series,Basic Device Management In LANWAN Convergence,AirEngine-Indoor",
+                "native-probable-cause": "Subscription License Expired",
+                "probable-cause": "Subscription license expired.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-17T05:00:27.836Z",
+                "alarm-serial-number": "677405396",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794846",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-10-17T05:00:25.837Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-18T05:00:24.301Z"
+                    }
+                ],
+                "last-changed": "2024-10-18T05:00:24.301Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-18T05:23:08.659Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "Extend the current license, or unify the expiration time.(In points-based mode, only the current license resources can be expanded.)",
+                "ne-name": "OSS",
+                "location-info": "licenseSeries=AR600 Series,AR6100 Series,S5700-LI Series-8 Ports,S5700-LI Series-24 Ports,AR6100 Series,Basic Device Management In LANWAN Convergence,AR600 Series,Basic Device Management In LANWAN Convergence,AirEngine-Indoor",
+                "native-probable-cause": "Subscription License Expired",
+                "probable-cause": "Subscription license expired.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-18T05:00:26.301Z",
+                "alarm-serial-number": "677406590",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794846",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-10-18T05:00:24.302Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-18T05:00:25.307Z"
+                    }
+                ],
+                "last-changed": "2024-10-18T05:00:25.307Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-18T05:23:08.659Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "Extend the current license, or unify the expiration time.(In points-based mode, only the current license resources can be expanded.)",
+                "ne-name": "OSS",
+                "location-info": "licenseSeries=AR600 Series,AR6100 Series,S5700-LI Series-8 Ports,S5700-LI Series-24 Ports,AR6100 Series,Basic Device Management In LANWAN Convergence,AR600 Series,Basic Device Management In LANWAN Convergence,AirEngine-Indoor",
+                "native-probable-cause": "Subscription License Expired",
+                "probable-cause": "Subscription license expired.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-18T05:00:27.307Z",
+                "alarm-serial-number": "682571226",
+                "reason-id": 1,
+                "tenant-id": "f47f2d2af7654d03b791877ab81696d7",
+                "tenant": "f47f2d2af7654d03b791877ab81696d7",
+                "alarm-text": "",
+                "other-info": "",
+                "ip-address": "br.naas.huaweicloud.com"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794846",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        }
+    ]
+}

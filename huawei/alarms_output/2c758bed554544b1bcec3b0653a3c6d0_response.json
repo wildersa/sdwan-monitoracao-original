@@ -1,0 +1,1462 @@
+{
+    "alarm": [
+        {
+            "time-created": "2024-10-19T16:07:05.092Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-10-19T16:07:05.092Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= TEST_WEI/AgencyUser, Handling policy=Suspend, Date= 2024-10-19",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-19T16:07:05.101Z",
+                "alarm-serial-number": "689770001",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "TEST_WEI",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.2.67"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            }
+        },
+        {
+            "time-created": "2024-10-19T16:07:05.099Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-10-19T16:07:05.099Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "communications-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user account needs to be continuously used. If continuous use is required, contact the security administrator.",
+                "ne-name": "OSS",
+                "location-info": "User name= VIVO-ProdutoVGR/noc_vgr.br@telefonica.com, Handling policy=Suspend, Date= 2024-10-19",
+                "native-probable-cause": "Users Having Not Logged In for an Excessively Long Time",
+                "probable-cause": "When a user is deleted or the service of the user is suspended due to the inactive user policy, the system generates this alarm.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-19T16:07:05.105Z",
+                "alarm-serial-number": "689764628",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "TEST_WEI",
+                "alarm-text": "",
+                "other-info": "Days not logged in=60",
+                "ip-address": "10.1.2.67"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-56",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "communications-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "OSS"
+            }
+        },
+        {
+            "time-created": "2024-10-17T00:03:19.091Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-10-17T00:03:19.091Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "AR5710-H8T2TS1_5A5E3A77",
+                "location-info": "ESN=2S2320017990",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-17T00:03:24.254Z",
+                "alarm-serial-number": "676506513",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out. ,resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.138.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "18c45007-4fec-4423-a466-14e359f59c0b",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR5710-H8T2TS1"
+            },
+            "additional-info": {
+                "common-esn": "2S2320017990"
+            }
+        },
+        {
+            "time-created": "2024-09-25T12:53:12.260Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-09-25T12:53:12.260Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "",
+                "ne-name": "S5735-L8P4S-A-V2_28302637",
+                "location-info": "OID: 1.3.6.1.4.1.2011.5.25.195.40.16",
+                "native-probable-cause": "hwPoePdPriorityDifferent",
+                "probable-cause": "",
+                "root-cause-identifier": false,
+                "ems-time": "2024-09-25T12:53:12.260Z",
+                "alarm-serial-number": "577802546",
+                "reason-id": 88888,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "The priority of interface and PD is inconsistent. )",
+                "ip-address": "140.1.1.146"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "24e2d62a-4698-49f3-b235-e67f563e1d13",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15795218",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "S5735-L8P4S-A-V2"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-09-13T19:43:19.327Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-09-13T19:43:19.327Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "ESN=2S500104832350009671",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-09-13T19:43:21.949Z",
+                "alarm-serial-number": "528554608",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out. ,resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-09-13T14:17:26.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "minor",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-09-13T14:17:26.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Diagnosis view, run the command display reset-reason, check the restart reason. If the abnormal restart, contact technical support personnel.",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.219.2.1.7;index=0;ESN=2S500104832350009671",
+                "native-probable-cause": "Reset board",
+                "probable-cause": "\u2022The AC or  device delivers the restart command. The device restarts normally.\n\u2022The device restarts unexpectedly, the device restarts.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-09-13T14:18:01.518Z",
+                "alarm-serial-number": "527330385",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "The device has been reset.(Index=9; EntityPhysicalIndex=9; PhysicalName=SRU Board 0; ResetInfo=Board have been pulled out or no power. Time : 09/13   00:25:51),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-4287406190",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-09-13T13:41:56.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-09-13T13:41:56.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Check whether the user password is correct.\n\u2022If the user password is correct, contact technical support personnel.\n\u2022If the user password is incorrect, log in to the device again using the correct password.",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "OID=1.3.6.1.4.1.2011.5.25.207.2.3;index=0;ESN=2S500104832350009671",
+                "native-probable-cause": "User Login Fail",
+                "probable-cause": "A user failed to log in to the device.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-09-13T14:18:01.518Z",
+                "alarm-serial-number": "527330384",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "A user login fail. (UserIndex=[0]; UserName=[adim]; UserIP=[Console0]; UserChannel=[CON0]),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3224903682",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-09-13T13:24:48.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-09-13T13:24:48.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "(1) If the interface is physical interface, such as eth.pos, please check the interface physical link. (2) If the interface is subinterface, please check the vlan is configured.",
+                "ne-name": "AR5710-H8T2TS1_5A5E3A77",
+                "location-info": "OID: 1.3.6.1.6.3.1.1.5.3, index:8",
+                "native-probable-cause": "linkDown",
+                "probable-cause": "Interface physical link is down",
+                "root-cause-identifier": false,
+                "ems-time": "2024-09-13T13:26:40.557Z",
+                "alarm-serial-number": "527131687",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "The interface status changes. (ifName=[GE0/0/5], AdminStatus=[up], OperStatus=[down], mainIfname=[GE0/0/5]),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.200.132"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "18c45007-4fec-4423-a466-14e359f59c0b",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-139591683",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR5710-H8T2TS1"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-09-01T05:27:58.363Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-09-01T05:27:58.363Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "processing-error-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: Device reports the backup file does not exist.\nCollect alarm and log information, and contact technical support personnel.\nCause 2: Failure returned by the device.\na. Check for exceptions between the device and the file server, including network disconnection and server unavailability.\nIf any exception occurs, contact technical support personnel to eliminate the exception and then go to b.\nIf no exception occurs, go to c.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 3: Configuration delivery failure.\na. Check whether the device version is V300R019C10 or later and whether it supports this function.\nIf the device version is supported, please contact technical support to fix it and then go to c.\nIf the device version is not supported, upgrade the device version and then go to b.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 4: The device is offline.\na. Bring the device online. For details, see the product documentation of the device.\nb. Wait for the next backup cycle.\nIf the backup is successful, go to d.\nIf the backup fails, go to c.\nc. Collect alarm and log information, and contact technical support personnel.\nd. End.\nCause 5: The backup timed out and the device progress could not be obtained.\nCollect alarm and log information, and contact technical support personnel.\nCause 6: V600 series devices do not support the configuration backup file function.\nCheck whether the device is of the V600 series. if not, contact technical support personnel.",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "esn=2S500104832350009671",
+                "native-probable-cause": "Device Configuration Backup Failed",
+                "probable-cause": "Cause 1: Device reports the backup file does not exist.\nCause 2: Failure returned by the device.\nCause 3: Configuration delivery failure.\nCause 4: The device is offline.\nCause 5: The backup timed out and the device progress could not be obtained.\nCause 6: V600 series devices do not support the configuration backup file function.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-09-01T05:28:00.433Z",
+                "alarm-serial-number": "469126836",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "name=AR651_SITE_A;errorMessage=The device is offline.",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-200037",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "processing-error-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-08-29T18:18:31.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-08-29T18:18:31.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.If the VLANIF interface is deleted, this trap message is informational only. No action is required, go to Step 7. \n2.Run the display this command in the interface view to check whether interfaces on both ends are shut down. \n\n\u2022If so, go to Step 3. \n\n\u2022If not, go to Step 4. \n\n\n3.Run the undo shutdown command in the interface view to check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 4. \n\n\n4.Check whether the cable and optical module are loosened or dropped. \n\n\u2022If so, go to Step 6. \n\n\u2022If not, go to Step 5. \n\n\n5.Connect the physical link correctly and then check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 6. \n\n\n6.Collect alarm information and configuration information, and then contact technical support personnel. \n7.End.\n",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "OID=1.3.6.1.6.3.1.1.5.3;index=Vlanif1;ESN=2S500104832350009671",
+                "native-probable-cause": "Link down",
+                "probable-cause": "\u2022The interface became Down and the link was disconnected.\n\u2022The VLANIF interface is deleted.\n\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-08-29T18:19:03.453Z",
+                "alarm-serial-number": "457160851",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Interface 15 turned into DOWN state.(AdminStatus=1;OperStatus=2;InterfaceName=Vlanif1;Description=HUAWEI, AR Series, Vlanif1 Interface),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3488620545",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-08-29T18:18:30.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-08-29T18:18:30.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.If the VLANIF interface is deleted, this trap message is informational only. No action is required, go to Step 7. \n2.Run the display this command in the interface view to check whether interfaces on both ends are shut down. \n\n\u2022If so, go to Step 3. \n\n\u2022If not, go to Step 4. \n\n\n3.Run the undo shutdown command in the interface view to check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 4. \n\n\n4.Check whether the cable and optical module are loosened or dropped. \n\n\u2022If so, go to Step 6. \n\n\u2022If not, go to Step 5. \n\n\n5.Connect the physical link correctly and then check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 6. \n\n\n6.Collect alarm information and configuration information, and then contact technical support personnel. \n7.End.\n",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "OID=1.3.6.1.6.3.1.1.5.3;index=GigabitEthernet0/0/0;ESN=2S500104832350009671",
+                "native-probable-cause": "Link down",
+                "probable-cause": "\u2022The interface became Down and the link was disconnected.\n\u2022The VLANIF interface is deleted.\n\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-08-29T18:19:03.453Z",
+                "alarm-serial-number": "457160850",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Interface 3 turned into DOWN state.(AdminStatus=1;OperStatus=2;InterfaceName=GigabitEthernet0/0/0;Description=HUAWEI, AR Series, GigabitEthernet0/0/0 Interface),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3488620545",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-08-29T18:06:55.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-08-29T18:06:55.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.If the VLANIF interface is deleted, this trap message is informational only. No action is required, go to Step 7. \n2.Run the display this command in the interface view to check whether interfaces on both ends are shut down. \n\n\u2022If so, go to Step 3. \n\n\u2022If not, go to Step 4. \n\n\n3.Run the undo shutdown command in the interface view to check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 4. \n\n\n4.Check whether the cable and optical module are loosened or dropped. \n\n\u2022If so, go to Step 6. \n\n\u2022If not, go to Step 5. \n\n\n5.Connect the physical link correctly and then check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 6. \n\n\n6.Collect alarm information and configuration information, and then contact technical support personnel. \n7.End.\n",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "OID=1.3.6.1.6.3.1.1.5.3;index=GigabitEthernet0/0/9;ESN=2S500104832350009671",
+                "native-probable-cause": "Link down",
+                "probable-cause": "\u2022The interface became Down and the link was disconnected.\n\u2022The VLANIF interface is deleted.\n\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-08-29T18:07:38.773Z",
+                "alarm-serial-number": "457094941",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Interface 12 turned into DOWN state.(AdminStatus=1;OperStatus=2;InterfaceName=GigabitEthernet0/0/9;Description=HUAWEI, AR Series, GigabitEthernet0/0/9 Interface),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3488620545",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-08-29T15:04:33.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-08-29T15:04:33.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.If the VLANIF interface is deleted, this trap message is informational only. No action is required, go to Step 7. \n2.Run the display this command in the interface view to check whether interfaces on both ends are shut down. \n\n\u2022If so, go to Step 3. \n\n\u2022If not, go to Step 4. \n\n\n3.Run the undo shutdown command in the interface view to check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 4. \n\n\n4.Check whether the cable and optical module are loosened or dropped. \n\n\u2022If so, go to Step 6. \n\n\u2022If not, go to Step 5. \n\n\n5.Connect the physical link correctly and then check whether the alarm is cleared. \n\n\u2022If so, go to Step 7. \n\n\u2022If not, go to Step 6. \n\n\n6.Collect alarm information and configuration information, and then contact technical support personnel. \n7.End.\n",
+                "ne-name": "AR651_SITE_A",
+                "location-info": "OID=1.3.6.1.6.3.1.1.5.3;index=GigabitEthernet0/0/1;ESN=2S500104832350009671",
+                "native-probable-cause": "Link down",
+                "probable-cause": "\u2022The interface became Down and the link was disconnected.\n\u2022The VLANIF interface is deleted.\n\n",
+                "root-cause-identifier": false,
+                "ems-time": "2024-08-29T17:42:17.470Z",
+                "alarm-serial-number": "456990984",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Interface 4 turned into DOWN state.(AdminStatus=1;OperStatus=2;InterfaceName=GigabitEthernet0/0/1;Description=HUAWEI, AR Series, GigabitEthernet0/0/1 Interface),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.150"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "abc86403-14f1-4b6f-ae85-888e61303530",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561515-3488620545",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR651"
+            },
+            "additional-info": {
+                "common-esn": "2S500104832350009671"
+            }
+        },
+        {
+            "time-created": "2024-08-27T16:06:56.435Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-08-27T16:06:56.435Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "processing-error-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "",
+                "ne-name": "AR5710-H8T2TS1_5A5E3A77",
+                "location-info": "DeviceESN=2S2320017990;DeviceId=18c45007-4fec-4423-a466-14e359f59c0b",
+                "native-probable-cause": "Device Configuration Delivery Failure",
+                "probable-cause": "",
+                "root-cause-identifier": false,
+                "ems-time": "2024-08-27T16:07:00.469Z",
+                "alarm-serial-number": "445221294",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "alarmReason=The config-state of the device is failed.",
+                "ip-address": "192.168.137.63"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "OSS",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-15794794",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "processing-error-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR5710-H8T2TS1"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-08-27T16:06:42.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "major",
+                "is-cleared": false,
+                "status-change": [],
+                "last-changed": "2024-08-27T16:06:42.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "(1) If the interface is physical interface, such as eth.pos, please check the interface physical link. (2) If the interface is subinterface, please check the vlan is configured.",
+                "ne-name": "AR5710-H8T2TS1_5A5E3A77",
+                "location-info": "OID: 1.3.6.1.6.3.1.1.5.3, index:3",
+                "native-probable-cause": "linkDown",
+                "probable-cause": "Interface physical link is down",
+                "root-cause-identifier": false,
+                "ems-time": "2024-08-27T16:08:37.303Z",
+                "alarm-serial-number": "445230495",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "The interface status changes. (ifName=[GE0/0/0], AdminStatus=[up], OperStatus=[down], mainIfname=[GE0/0/0]),resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.137.63"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "18c45007-4fec-4423-a466-14e359f59c0b",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-139591683",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AR5710-H8T2TS1"
+            },
+            "additional-info": {
+                "common-esn": ""
+            }
+        },
+        {
+            "time-created": "2024-10-22T18:39:14.091Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-22T18:43:26.996Z"
+                    }
+                ],
+                "last-changed": "2024-10-22T18:43:26.996Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "S5735-L8P4S-A-V2_28302637",
+                "location-info": "ESN=QU2346011373",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-22T18:43:28.996Z",
+                "alarm-serial-number": "704829855",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out. ,resUrl=/controller/campus/v3/devices",
+                "ip-address": "140.1.1.149"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "24e2d62a-4698-49f3-b235-e67f563e1d13",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "S5735-L8P4S-A-V2"
+            },
+            "additional-info": {
+                "common-esn": "QU2346011373"
+            }
+        },
+        {
+            "time-created": "2024-10-22T18:38:29.093Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "critical",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "critical",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-22T18:48:57.773Z"
+                    }
+                ],
+                "last-changed": "2024-10-22T18:48:57.773Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "Cause 1: The device proactively goes offline.\n              Register the device with the iMaster NCE again. For details, see the product documentation of the device.\nCause 2: The network is abnormal.\n              Check the network and node status:\n              - If the network is abnormal, collect alarm, operation log, and controller log information, and contact technical support personnel.\n              - If the network is normal, register the device with the iMaster NCE again. If the registration fails, collect alarm, operation log, and controller log information, and contact technical support personnel.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "ESN=21500849873GP8008115",
+                "native-probable-cause": "A Device Went Offline",
+                "probable-cause": "The device proactively goes offline or the network is abnormal.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-22T18:48:59.773Z",
+                "alarm-serial-number": "704828787",
+                "reason-id": 1,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "additional=The connection times out. ,resUrl=/controller/campus/v3/devices",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "100000-1012",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-22T13:28:09.000Z",
+            "is-acked": false,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-22T13:41:10.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-22T13:41:10.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-22T13:41:12.000Z",
+                "alarm-serial-number": "703475503",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 22 2024 13:28:09.937.1-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=80)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-20T00:16:10.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-20T00:23:10.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-20T00:23:10.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-20T01:58:41.175Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-20T00:23:12.000Z",
+                "alarm-serial-number": "691260093",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 20 2024 00:16:10.59.1-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=76)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-20T00:53:10.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-20T01:05:10.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-20T01:05:10.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T11:01:48.768Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-20T01:05:12.000Z",
+                "alarm-serial-number": "691377958",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 20 2024 00:53:10.559.3-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=72)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T10:36:43.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-21T11:19:44.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-21T11:19:44.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T12:16:19.322Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-21T11:19:46.000Z",
+                "alarm-serial-number": "697569659",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 10:36:43.548.3-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=76)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T11:45:44.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-21T11:57:44.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-21T11:57:44.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T16:48:41.163Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-21T11:57:46.000Z",
+                "alarm-serial-number": "697839435",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 11:45:44.619.1-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=73)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T16:31:48.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-21T16:39:49.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-21T16:39:49.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T17:55:11.155Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-21T16:39:51.000Z",
+                "alarm-serial-number": "699096496",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 16:31:48.999.1-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=73)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T17:30:49.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-21T18:26:50.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-21T18:26:50.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T19:50:08.697Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-21T18:26:52.000Z",
+                "alarm-serial-number": "699345118",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 17:30:49.799.1-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=73)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T19:17:51.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-21T20:44:52.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-21T20:44:52.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T21:20:21.055Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-21T20:44:54.000Z",
+                "alarm-serial-number": "699778240",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 19:17:51.369.3-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=73)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T21:07:53.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-21T21:31:53.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-21T21:31:53.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-21T23:45:54.619Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-21T21:31:55.000Z",
+                "alarm-serial-number": "700196766",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 21:07:53.249.3-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=72)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-21T23:19:55.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-22T00:15:56.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-22T00:15:56.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-22T02:46:08.726Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-22T00:15:58.000Z",
+                "alarm-serial-number": "700628327",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 21 2024 23:19:55.349.1-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=71)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        },
+        {
+            "time-created": "2024-10-22T02:25:58.000Z",
+            "is-acked": true,
+            "resource-alarm-parameters": {
+                "perceived-severity": "warning",
+                "is-cleared": true,
+                "status-change": [
+                    {
+                        "perceived-severity": "warning",
+                        "alarm-text": "Alarm cleared.",
+                        "time": "2024-10-22T03:04:58.000Z"
+                    }
+                ],
+                "last-changed": "2024-10-22T03:04:58.000Z"
+            },
+            "x733-alarm-parameters": {
+                "event-type": "equipment-alarm"
+            },
+            "operator-state-change": [
+                {
+                    "operator": "< System operator >",
+                    "text": "Alarm acknowledged.",
+                    "state": "ack",
+                    "time": "2024-10-22T13:41:00.989Z"
+                }
+            ],
+            "alarm-parameters": {
+                "repair-action": "1.Run the display ap neighbor command to view the neighboring radio, and check whether there are APs using the same or neighboring radio.\n\u2022If so, run the channel command to reconfigure a channel or power for this radio to avoid the signal interference. Then go to 2.\n\u2022If not, go to 3.",
+                "ne-name": "AirEngine5762-12_3661D0B5",
+                "location-info": "oid=1.3.6.1.4.1.2011.6.139.16.1.1.1.2;index=[7c.00.4d.b9.d4.90;ESN=21500849873GP8008115;Extra Info=(hex)]_0;",
+                "native-probable-cause": "Radio signal environment deteriorates",
+                "probable-cause": "Radio signal environment deteriorates.",
+                "root-cause-identifier": false,
+                "ems-time": "2024-10-22T03:05:00.000Z",
+                "alarm-serial-number": "701243150",
+                "reason-id": 0,
+                "tenant-id": "2c758bed554544b1bcec3b0653a3c6d0",
+                "tenant": "2c758bed554544b1bcec3b0653a3c6d0",
+                "alarm-text": "",
+                "other-info": "Oct 22 2024 02:25:58.209.3-03:00 AirEngine5762-12_3661D0B5 WLAN/4/RADIO_ENV_DETERIORATE:OID 1.3.6.1.4.1.2011.6.139.16.1.1.1.2 Radio signal environment deteriorates. (APMAC=[7c.00.4d.b9.d4.90 (hex)]; RadioID=0; APName=AirEngine5762-12_3661D0B5; PER=0%; RetransmissionRate=0%; APID=0; NoiseFloor=0dBm; Reason=InterferenceRate; BadChannel=0; InterferenceRate=77)",
+                "ip-address": "192.168.139.79"
+            },
+            "common-alarm-parameters": {
+                "alt-resource": [],
+                "resource": "6aecb6f2-a4df-457f-9e7c-b0f2a7abf0e7",
+                "resource-url": "",
+                "ietf-resource-url": "",
+                "related-alarm": [],
+                "alarm-type-qualifier": "278561516-303046772",
+                "impacted-resource": [],
+                "root-cause-resource": [],
+                "alarm-type-id": "equipment-alarm",
+                "layer": "LR_Not_Applicable",
+                "md-name": "Huawei/NCE",
+                "product-type": "AirEngine5762-12"
+            },
+            "additional-info": {
+                "common-esn": "21500849873GP8008115"
+            }
+        }
+    ]
+}

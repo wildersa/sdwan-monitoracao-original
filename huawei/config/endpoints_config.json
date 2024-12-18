@@ -1,0 +1,119 @@
+{
+  "endpoints": {
+    "get_token": {
+      "method": "POST",
+      "endpoint": "/controller/v2/tokens",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "userName": "{username}",
+        "password": "{password}"
+      },
+      "token_type": "msp"
+    },
+    "get_tenant_token": {
+      "method": "POST",
+      "endpoint": "/rest/auth/v3/tokens",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-ACCESS-TOKEN": "{token}"
+      },
+      "body": {
+        "identity": {
+          "methods": ["assumeRole"],
+          "assumeRole": {
+            "tenantId": "{tenantId}"
+          }
+        }
+      },
+      "token_type": "msp"
+    },
+    "get_tenants": {
+      "method": "GET",
+      "endpoint": "/controller/campus/v1/baseservice/tenants",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-ACCESS-TOKEN": "{token}"
+      },
+      "url_params": [
+        {"name": "pageIndex", "required": false, "type": "int", "description": "Índice da página (opcional)"},
+        {"name": "pageSize", "required": false, "type": "int", "description": "Tamanho da página (opcional)"}
+      ],
+      "body_params": [],
+      "params": [],
+      "token_type": "msp",
+	  "response_key": "data"
+    },
+    "get_devices_msp": {
+      "method": "POST",
+      "endpoint": "/controller/campus/v4/devices/msp/query",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-ACCESS-TOKEN": "{token}"
+      },
+      "url_params": [],
+      "body_params": [
+        {"name": "keyWord", "required": false, "type": "string", "description": "Palavra-chave de busca (opcional, como IP, ESN, etc.)"},
+        {"name": "tenantIdList", "required": false, "type": "array", "description": "Lista de IDs de tenants (array de strings)"},
+        {"name": "name", "required": false, "type": "string", "description": "Nome do dispositivo (fuzzy search)"},
+        {"name": "esn", "required": false, "type": "string", "description": "ESN do dispositivo (fuzzy search)"},
+        {"name": "model", "required": false, "type": "string", "description": "Modelo do dispositivo"},
+        {"name": "softwareVersion", "required": false, "type": "string", "description": "Versão do software"},
+        {"name": "patchVersion", "required": false, "type": "string", "description": "Versão do patch"},
+        {"name": "manageStatus", "required": false, "type": "array", "description": "Status de gerenciamento (array, ex.: [NORMAL, DEVICE_ISOLATE])"},
+        {"name": "sortField", "required": false, "type": "string", "description": "Campo de ordenação (nome, ESN, status, etc.)"},
+        {"name": "status", "required": false, "type": "array", "description": "Status do dispositivo (array, ex.: [NORMAL, ALARM, OFFLINE])"},
+        {"name": "roles", "required": false, "type": "array", "description": "Funções do dispositivo (array, ex.: [Gateway, CORE])"},
+        {"name": "types", "required": false, "type": "array", "description": "Tipos de dispositivos (array, ex.: [WAC, AP, AR])"},
+        {"name": "pageIndex", "required": false, "type": "int", "description": "Índice da página (opcional)"},
+        {"name": "pageSize", "required": false, "type": "int", "description": "Tamanho da página (opcional)"},
+        {"name": "createTimeBegin", "required": false, "type": "int64", "description": "Data de início de criação (timestamp)"},
+        {"name": "createTimeEnd", "required": false, "type": "int64", "description": "Data de fim de criação (timestamp)"},
+        {"name": "registerTimeBegin", "required": false, "type": "int64", "description": "Data de início de registro (timestamp)"},
+        {"name": "registerTimeEnd", "required": false, "type": "int64", "description": "Data de fim de registro (timestamp)"}
+      ],
+      "params": [],
+      "token_type": "msp",
+	  "response_key": "data"
+    },
+	"get_alarms": {
+      "method": "GET",
+      "endpoint": "/restconf/v1/data/ietf-alarms:alarms/alarm-list",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-ACCESS-TOKEN": "{token}"
+      },
+      "url_params": [
+        {"name": "is-cleared", "required": false, "type": "boolean", "description": "Indica se as falhas já foram resolvidas (true) ou não (false)."},
+        {"name": "limit", "required": false, "type": "int", "description": "Número máximo de registros por página (padrão: 1000, máximo: 5000)."},
+        {"name": "marker", "required": false, "type": "string", "description": "Índice para iteração de resultados, valor baseado em UUID."},
+        {"name": "alarm-type-qualifier", "required": false, "type": "array", "description": "Qualificador do tipo de alarme (array de strings)."},
+        {"name": "perceived-severity", "required": false, "type": "array", "description": "Severidade percebida (array de strings: 'critical', 'major', 'minor', 'warning')."},
+        {"name": "resource", "required": false, "type": "array", "description": "Origem do alarme, UUID do recurso (ex.: dispositivo)."},
+        {"name": "start-time", "required": false, "type": "string", "description": "Tempo inicial no formato ISO 8601 (ex.: '2021-09-10T00:00:00Z')."},
+        {"name": "end-time", "required": false, "type": "string", "description": "Tempo final no formato ISO 8601 (ex.: '2021-09-10T23:59:59Z')."},
+        {"name": "alarm-serial-number", "required": false, "type": "array", "description": "Número de série dos alarmes (array de strings)."},
+        {"name": "impacted-resource", "required": false, "type": "array", "description": "Lista de recursos impactados (array de strings)."}
+      ],
+      "token_type": "tenant",
+	  "response_key": "alarm"
+    },
+    "get_network_link": {
+      "method": "GET",
+      "endpoint": "/rest/openapi/network/link",
+      "headers": {
+        "Content-Type": "application/json",
+        "X-ACCESS-TOKEN": "{token}"
+      },
+      "url_params": [
+        {"name": "pageIndex", "required": false, "type": "int", "description": "Índice da página (opcional)"},
+        {"name": "pageSize", "required": false, "type": "int", "description": "Tamanho da página (opcional)"}
+      ],
+      "body_params": [],
+      "params": [],
+      "token_type": "tenant",
+	  "response_key": "data"
+    }
+  }
+}
